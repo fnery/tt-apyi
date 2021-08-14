@@ -2,9 +2,17 @@ config.py
 __pycache__
 .ipynb_checkpoints
 
-### VisualStudioCode template
+# VS code
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Environments
+.venv
+venv/
+ENV/
+.env*
+
+test.py
